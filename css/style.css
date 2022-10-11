@@ -1,0 +1,105 @@
+
+
+
+
+ /* souphen Business */
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .line{
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+
+ }
+ .line .line-blue {
+    width: 10%;
+    height: 2px;
+    background-color: blue ;
+ }
+ .img-1{
+    width: 100%;
+    height: 280px;
+    cursor: pointer;
+ }
+ .img-1 img{
+    width: 100%;
+    height: 200px ;
+    object-fit: cover;
+
+ }
+ .img-1 h4{
+    margin-top: 20px ;
+    transition: all .3s ;
+ }
+ .img-1:hover img{
+    opacity: 0.9;
+ }
+ .img-1:hover h4{
+    color: blue;
+ }
+ .img-text{
+    width: 100%;
+    height: 85px ;
+
+ }
+ .img-text img {
+    height: 100%;
+    height: 100%;
+    object-fit: cover ;
+ }
+ .img-text:hover img{
+    opacity: 0.9;
+ }
+ .img-text:hover h6{
+    color: blue;
+ }
+ .line-Social{
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+
+ }
+ .line-Social .line-blue {
+    width: 35%;
+    height: 2px;
+    background-color: blue ;
+ }
+ .icon{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+ }
+ .icon h5{
+    margin-top: 5px ;
+    line-height: 40px ;
+    font-size: 20px ;
+  transition: all 0.3s ;
+ }
+ .icon h5:hover{
+    color: blue ;
+ } 
+
+ .line-Popular{
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+
+ }
+ .line-Popular .line-blue {
+    width: 25%;
+    height: 2px;
+    background-color: blue ;
+ }
+ .line-Latest{
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+
+ }
+ .line-Latest .line-blue {
+    width: 25%;
+    height: 2px;
+    background-color: blue ;
+ }
