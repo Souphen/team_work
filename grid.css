@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.contener{
+    width: 90%;
+    margin: 2px auto;
+}
+.row::after{
+    content:" ";
+    display: teble;
+    clear: both;
+    
+}
